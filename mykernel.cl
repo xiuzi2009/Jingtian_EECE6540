@@ -5,10 +5,11 @@ __kernel void simpleMultiply(
     int heightA,
     int widthB,
     int heightB,
-    int widthX,
-    int heightX
+ 
     __global float *inputA,
     __global float *inputB,
+    int widthX,
+    int heightX, 
     __global float *inputX)
 {
     /* get global position in Y direction */
